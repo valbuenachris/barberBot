@@ -1,0 +1,3 @@
+<?php
+
+define('API_KEY', 'f6d2c77029f1aa11622146710d9e19d160694c78');
