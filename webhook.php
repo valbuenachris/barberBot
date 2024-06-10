@@ -61,8 +61,6 @@ try {
                     $responseData = agendarNombre($pdo, $from, $message);
                     break;
                     
-                
-                
                 /*
                 case (strtolower($message) == 'menu'):
                     $responseData = menu($pdo, $from);
@@ -101,15 +99,14 @@ try {
                     $responseData = info($pdo, $from);
                     break;
                     
-                case (stripos($message, 'turno') !== false):
-                $responseData = porDefecto($pdo, $from);
-                break;
-                
-               
-                /*
                 default:
                     $responseData = porDefecto($pdo, $from);
                     break;
+                
+                /*
+                case (stripos($message, 'turno') !== false):
+                $responseData = porDefecto($pdo, $from);
+                break;
                 */
     }
     
