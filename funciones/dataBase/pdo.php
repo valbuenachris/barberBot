@@ -3,9 +3,9 @@
     // Esta es la DB del bot barbero
 
     $host = 'localhost';
-    $db   = 'educovxy_banusBarber';
-    $user = 'educovxy_banusBarber';
-    $pass = 'Juanes801+';
+    $db   = 'db_name';
+    $user = 'db_user';
+    $pass = 'db_pass';
     $charset = 'utf8mb4';
     
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
